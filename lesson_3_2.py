@@ -34,6 +34,7 @@ class Car:
         return self.__max_speed
 
 car_honda = Car(model='Honda', color='White')
+# следующие 2 строки вызовут ошибку, так как идет обращение к приватным атрибутам/методам
 # print(car_honda.__fined)
 # car_honda.__test_car()
 car_honda.drive_to_location("Bishkek")
