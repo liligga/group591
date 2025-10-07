@@ -25,7 +25,6 @@ class Truck(Car):
     pass
 
 
-
 bus_1 = Bus(model="Mercedes", color="green", seats=30)
 print(bus_1.model)
 print(bus_1.seats)
