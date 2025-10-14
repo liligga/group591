@@ -6,8 +6,8 @@ class Car:
         self.__fined = False
         self.__max_speed = 0
 
-    def drive_to_location(self, location):
-        print(f"Car {self.model} is driving to {location}")
+    def drive_to_location(self, destination):
+        print(f"Car {self.model} is driving to {destination}")
         self.__test_car()
 
     def __test_car(self):
