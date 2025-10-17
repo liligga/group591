@@ -1,3 +1,5 @@
+from lessons.lesson_1 import Car
+
 # dunder methods double underscore
 class Money:
     def __init__(self, amount=0):
@@ -39,3 +41,7 @@ print(money_igor > money_mirlan)
 print(money_mirlan > money_igor)
 
 print(f"Add two money objs: {money_igor + money_mirlan}")
+
+
+car_1 = Car(model='Honda', color='White')
+print(car_1)
